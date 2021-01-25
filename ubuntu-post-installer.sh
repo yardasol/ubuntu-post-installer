@@ -11,11 +11,6 @@ wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
 bash Anaconda3-2020.07-Linux-x86_64.sh
 sudo apt-get install update
 
-# download and install Google Chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
-sudo apt-get update
-
 # install code editors
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
