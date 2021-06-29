@@ -7,6 +7,9 @@ sudo apt install gcc g++ gfortran make cmake -y
 sudo apt install gimp -y
 sudo apt update
 
+# install Write
+wget -O - http://www.styluslabs.com/download/write-tgz | tar -C $HOME -xJ
+
 # install anaconda
 wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 bash Anaconda3-2021.05-Linux-x86_64.sh
