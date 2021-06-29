@@ -1,26 +1,26 @@
 #! /bin/bash
 
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get install curl vim git -y
-sudo apt-get install pavucontrol gimp gnome-shell-pomodoro -y
-sudo apt-get update
+sudo apt update
+sudo apt upgrade -y
+sudo apt install curl vim git -y
+sudo apt install pavucontrol gimp gnome-shell-pomodoro -y
+sudo apt update
 
 # install anaconda
-wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
-bash Anaconda3-2020.07-Linux-x86_64.sh
-sudo apt-get install update
+wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+bash Anaconda3-2021.05-Linux-x86_64.sh
+sudo apt install update
 
 # download and install Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
-sudo apt-get update
+sudo apt update
 
 # install code editors
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-sudo apt-get update
-sudo apt-get install atom
+sudo apt update
+sudo apt install atom
 
 # set up atom packages
 apm install linter-flake-8
@@ -46,5 +46,5 @@ wget https://raw.githubusercontent.com/samgdotson/ubuntu-post-installer/master/z
 bash zotero_installer.sh
 
 # install LaTeX
-sudo apt-get install texlive-full -y
-sudo apt-get update
+sudo apt install texlive-full -y
+sudo apt update
