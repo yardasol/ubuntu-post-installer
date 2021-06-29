@@ -3,6 +3,7 @@
 sudo apt update
 sudo apt upgrade -y
 sudo apt install curl vim git -y
+sudo apt install gcc g++ gfortran make cmake -y
 sudo apt install gimp -y
 sudo apt update
 
