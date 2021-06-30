@@ -10,6 +10,9 @@ sudo apt update
 # install Write
 wget -O - http://www.styluslabs.com/download/write-tgz | tar -C $HOME -xJ
 
+# install Thunderbird
+wget -O - https://download.mozilla.org/?product=thunderbird-78.11.0-SSL&os=linux64&lang=en-US | tar -C $HOME -xj
+
 # install anaconda
 wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 bash Anaconda3-2021.05-Linux-x86_64.sh
