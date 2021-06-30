@@ -18,6 +18,11 @@ echo 'export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[0
 # install Write
 wget -O - http://www.styluslabs.com/download/write-tgz | tar -C $HOME -xJ
 
+# install Inkscape
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt-get update
+sudo apt install inkscape
+
 # install Thunderbird
 wget -O - https://download.mozilla.org/?product=thunderbird-78.11.0-SSL&os=linux64&lang=en-US | tar -C $HOME -xj
 
