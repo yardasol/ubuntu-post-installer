@@ -8,7 +8,7 @@ sudo apt install gimp -y
 sudo apt update
 
 # install Write
-wget -O - http://www.styluslabs.com/download/write-tgz | tar -C $HOME -xJ
+wget -O - http://www.styluslabs.com/download/write-tgz | tar -C $HOME -xz
 
 # install Inkscape
 sudo add-apt-repository ppa:inkscape.dev/stable
