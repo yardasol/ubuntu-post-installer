@@ -9,7 +9,7 @@ sudo apt update
 
 # install Write
 wget -O - http://www.styluslabs.com/download/write-tgz | tar -C $HOME -xz
-source $HOME/Write/setup.sh
+./$HOME/Write/setup.sh
 
 # install Inkscape
 sudo add-apt-repository ppa:inkscape.dev/stable
